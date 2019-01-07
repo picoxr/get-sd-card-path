@@ -1,4 +1,4 @@
-# PicoVRSDCardManager使用方式
+# PicoVRSDCardManager在Unity中的使用方式
 
 1.新建Unity工程，把Demo中的Plugins->Android中的picovrSDCardmanager_v20170905.jar包，拷贝到Unity工程对应的目录下
 
