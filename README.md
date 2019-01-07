@@ -17,7 +17,7 @@ S, "androidGetSDdir");
 
 1.打开Unity，导入PicovrSDCardmanager_v2.6.0.unitypackage，打开Sphere场景。
 
-2.新建Unity工程，把Demo中的Plugins->Android中的picovrSDCardmanager_v20170905.jar包，拷贝到Unity工程对应的目录下
+2.新建Unity工程，把assets中的picovrSDCardmanager_v20170905.jar包，拷贝到Unity工程中Plugins->Android的目录下
 
 3.修改主activity：android:name="com.picovr.externalstoragedirectory.SDCardManager"
 ![](https://github.com/PicoSupport/SDCardManager/blob/master/assets/01.png)
