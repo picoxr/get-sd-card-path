@@ -1,7 +1,7 @@
 # How the PicoVRSDCardManager is used in Unity
 1. Open Unity, import picovrsdcardmanager_v2.6.0.unitypackage, and open Sphere scene.
 
-2. Create a new Unity project and copy the package picovrsdcardmanager_v20170905.jar in the plugins-> Android in the Demo to the directory corresponding to the Unity project
+2. Create a new Unity project and copy the picovrsdcardmanager_v20170905.jar package in assets into the plugins-> Android directory of Unity project
 
 3. Modify the main activity: the android: name = "com. Picovr. Externalstoragedirectory. SDCardManager"
 ![](https://github.com/PicoSupport/SDCardManager/blob/master/assets/01.png)
