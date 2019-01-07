@@ -4,7 +4,7 @@
 2. Create a new Unity project and copy the package picovrsdcardmanager_v20170905.jar in the plugins-> Android in the Demo to the directory corresponding to the Unity project
 
 3. Modify the main activity: the android: name = "com. Picovr. Externalstoragedirectory. SDCardManager"
-![] (https://github.com/PicoSupport/SDCardManager/blob/master/assets/01.png)
+![](https://github.com/PicoSupport/SDCardManager/blob/master/assets/01.png)
 
 4. Copy the script of picounityactivity.cs into any directory of the Unity project.
 
