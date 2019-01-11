@@ -1,4 +1,4 @@
-<p align="right"><a href="https://github.com/PicoSupport/PicoSupport" target="_blank"> <img src="https://github.com/PicoSupport/PicoSupport/blob/master/Assets/home.png" width="20"/> </a></p>
+[Call And Export Jar Package](https://github.com/PicoSupport/PicoSupport/blob/master/Call%20And%20Export%20Jar.docx)<p align="right"><a href="https://github.com/PicoSupport/PicoSupport" target="_blank"> <img src="https://github.com/PicoSupport/PicoSupport/blob/master/Assets/home.png" width="20"/> </a></p>
 
 # How the PicoVRSDCardManager is used in Unity
 1. Open Unity, import picovrsdcardmanager_v2.6.0.unitypackage, and open Sphere scene.
@@ -14,19 +14,3 @@
 S, "androidGetSDdir");
 
 6. Package note: the BundleIdentifier of PlayerSetting in Unity should be consistent with the Android project.
-
-# PicoVRSDCardManager在Unity中的使用方式
-
-1.打开Unity，导入PicovrSDCardmanager_v2.6.0.unitypackage，打开Sphere场景。
-
-2.新建Unity工程，把assets中的picovrSDCardmanager_v20170905.jar包，拷贝到Unity工程中Plugins->Android的目录下
-
-3.修改主activity：android:name="com.picovr.externalstoragedirectory.SDCardManager"
-![](https://github.com/PicoSupport/SDCardManager/blob/master/assets/01.png)
-
-4.将PicoUnityActivity.cs脚本拷贝到Unity工程任意目录下。
-
-5.调用Android接口，string s=""; PicoUnityActivity.CallObjectMethod<string>(ref
-   s,"androidGetSDdir");
-
-6.打包注意:Unity中PlayerSetting的BundleIdentifier要与Android工程保持一致。
