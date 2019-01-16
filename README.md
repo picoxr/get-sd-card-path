@@ -1,9 +1,17 @@
-# How the PicoVRSDCardManager is used in Unity
+# How to use SDCardManager in Unity
 
 Note: Regarding JAR file creation and usage, please refer to [the Guideline](https://github.com/PicoSupport/PicoSupport/blob/master/How_to_use_JAR_file_in_Unity_project_on_Pico_device.docx)
 
-1. Modify the main activity: the android: name = "com.Picovr.Externalstoragedirectory.SDCardManager"
-![](https://github.com/PicoSupport/SDCardManager/blob/master/assets/01.png)
+## Introduction
+this project provides two methods for obtaining SD card path.
 
-2.Interface
-String androidGetSDdir()
+## Class name
+android: name = "com.Picovr.Externalstoragedirectory.SDCardManager"
+
+## Permission
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+## Interface
+String getSDdir(Context mContext)
+String getPath() (if the methon above, you can try this)
