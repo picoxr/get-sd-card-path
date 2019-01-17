@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    // 获取SD卡根路径
+    // get SD card path main method
     public void androidGetSDdir() {
 
         String dir = Externalstoragedirectory.getSDdir(this);
