@@ -6,7 +6,9 @@ Note: Regarding JAR file creation and usage, please refer to [the Guideline](htt
 this project provides two methods for obtaining SD card path.
 
 ## Class name
+```
 android: name = "com.Picovr.Externalstoragedirectory.SDCardManager"
+```
 
 ## Permission
 ```
@@ -15,5 +17,7 @@ android: name = "com.Picovr.Externalstoragedirectory.SDCardManager"
 ```
 
 ## Interface
+```
 String getSDdir(Context mContext)<br>
 String getPath() (if the methon above, you can try this)
+```
