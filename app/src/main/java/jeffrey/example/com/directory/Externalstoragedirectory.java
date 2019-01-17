@@ -17,7 +17,7 @@ public class Externalstoragedirectory {
     private static String ExternalPath2;
 
     /**
-     * 获取sd卡文件的路径 通过反射获取到隐藏类来模仿系统源码获取到信息，而这个也可以用来获取到6.0以上被打乱了的sd卡名称。
+     * get SD card path using reflect
      */
     public static String getSDdir(Context mContext) {
 
@@ -73,9 +73,7 @@ public class Externalstoragedirectory {
     }
 
     /**
-     * 如果以上方法出现问题（获取到的结果为NULL），可以采用下面的方法，具体可以自己修改，我只对6.0进行的处理：
-     *
-     * @return 返回值即为sd卡的名称，可以自己再进行修改和包装一下
+     * if the method above doesnt work, try this
      */
     public static String getPath() {
         Runtime mRuntime = Runtime.getRuntime();
