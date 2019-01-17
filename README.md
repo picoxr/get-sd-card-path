@@ -15,5 +15,5 @@ android: name = "com.Picovr.Externalstoragedirectory.SDCardManager"
 ```
 
 ## Interface
-String getSDdir(Context mContext)
+String getSDdir(Context mContext)<br>
 String getPath() (if the methon above, you can try this)
