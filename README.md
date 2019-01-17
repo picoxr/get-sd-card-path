@@ -9,8 +9,10 @@ this project provides two methods for obtaining SD card path.
 android: name = "com.Picovr.Externalstoragedirectory.SDCardManager"
 
 ## Permission
+```
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+```
 
 ## Interface
 String getSDdir(Context mContext)
