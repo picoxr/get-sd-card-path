@@ -20,7 +20,7 @@ com.picovr.getsdpath.GetSDPathClass
 ## Interface
 ```
 // Return the path of SD card. eg: storage/3263-3533 
-String getSDdir(Context context)
+String getSDPath(Context context)
 ```
 
 ## Sample Code
